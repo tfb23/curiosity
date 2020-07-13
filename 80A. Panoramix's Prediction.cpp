@@ -29,9 +29,7 @@ int main()
 }
 
 
-//another solutionable process:
-//this is also interesting();
-
+//another interesting process:
 
 /*
 #include <iostream>
