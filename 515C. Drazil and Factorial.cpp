@@ -25,8 +25,6 @@ int main()
 
 /*
 　
-   The question asks you to ask for the largest a
-
 Consider 4! =3! *2! *2!
 
 6! = 5! *3!
@@ -61,9 +59,9 @@ Define F(x) equal to the factorial sum of each bit of x.
 
 Now give you an a, and let you find the largest x such that F(x)=F(a)
 
-The order of a is obviously irrelevant. For the factorial of each number, there is actually only the longest one.
+For the factorial of each number, there is actually only the longest one.
 
-So it's violent to replace them directly, and then arrange them in order.
+not to replace them directly;arrange them in order.
 
 
 */
