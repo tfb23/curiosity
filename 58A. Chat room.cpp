@@ -2,8 +2,8 @@
 
 
 /* 
-The main idea of the question: If there is an ordered "hello" in the input string.
-it will output YES, otherwise NO. The "hello" does not need to be continuous.
+If there is an ordered "hello" in the input string.
+then it will output YES, otherwise NO. The "hello" does not need to be continuous.
 Using char array {'h','e','l','l','o'}scan & mathch for the string.
 the corresponding flag[i]=true, next time Loop head=++j, and jump out of the inner loop.
 YES flag[i] are all true, otherwise NO.
