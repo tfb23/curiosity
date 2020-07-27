@@ -1,4 +1,4 @@
-//https://codeforces.com/problemset/problem/630/J
+//	https://codeforces.com/problemset/problem/630/J
 
 
 #include <iostream>
