@@ -22,3 +22,43 @@ int main()
 	}
 	printf("%d\n", ans==0?4:0);
 }
+
+
+/* 
+
+some funny solution that worked:
+
+#include <stdio.h>
+int x;
+int main()
+{
+	scanf("%d",&x);
+	putchar(x%4?48:52);
+}
+
+*/
+
+
+
+
+
+/*
+
+#include<stdio.h>
+int main()
+{ //  freopen("B.txt","r",stdin);
+	int b;
+    while(scanf("%d",&b)==1)
+    {
+        if(b%4==0)
+            printf("4\n");
+        else
+            printf("0\n");
+	}
+	return 0;
+}
+
+/*
+
+
+
