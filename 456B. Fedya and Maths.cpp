@@ -46,7 +46,7 @@ int main()
 
 #include<stdio.h>
 int main()
-{ //  freopen("B.txt","r",stdin);
+{
 	int b;
     while(scanf("%d",&b)==1)
     {
