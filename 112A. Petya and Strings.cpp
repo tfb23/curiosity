@@ -12,11 +12,13 @@ int main()
 
 
     /*
-    for (int i = 0; i < strlen(s1); i++) {
+    for (int i = 0; i < strlen(s1); i++) 
+    		{
 			s1[i] = toupper(s1[i]);
 		}
 
-		for (int i = 0; i < strlen(s2); i++) {
+		for (int i = 0; i < strlen(s2); i++) 
+		{
 			s2[i] = toupper(s2[i]);
 		}
 		printf("%d\n", strcmp(s1, s2));
