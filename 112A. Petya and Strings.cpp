@@ -22,6 +22,7 @@ int main()
 		printf("%d\n", strcmp(s1, s2));
     */
     
+
     /*
     for(i=0;a[i]!='\0';i++)
 	{
