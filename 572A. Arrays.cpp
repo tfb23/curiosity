@@ -21,7 +21,13 @@ int main()
         {
         cin>>b[i];
         }
-    sort(a,a+na);
+    
+       //  without sorting:
+      //  f(a[k] < b[nb-m+1]) printf("YES\n");  
+     //  else printf("NO\n");
+          
+    
+    sort(a,a+na);            
     sort(b,b+nb);
     reverse(b,b+nb);
     if(a[k-1]<b[m-1])
