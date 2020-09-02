@@ -26,11 +26,11 @@ int main()
        //  without sorting:
       //  if(a[k] < b[nb-m+1]) printf("YES\n");  
      //  else printf("NO\n");
-          
+    //  sorting makes it comfortable
     
-    sort(a,a+na);            
-    sort(b,b+nb);
-    reverse(b,b+nb);
+    sort(a, a+na);            
+    sort(b, b+nb);
+    reverse(b, b+nb);
     if(a[k-1]<b[m-1])
         {
         cout<<"YES"<<endl;
