@@ -1,7 +1,6 @@
 //    https://codeforces.com/problemset/problem/572/A
 
 
-
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -26,7 +25,7 @@ int main()
        //  without sorting:
       //  if(a[k] < b[nb-m+1]) printf("YES\n");  
      //  else printf("NO\n");
-    //  sorting makes it comfortable
+    
     
     sort(a, a+na);            
     sort(b, b+nb);
