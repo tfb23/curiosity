@@ -23,7 +23,7 @@ int main()
         }
     
        //  without sorting:
-      //  f(a[k] < b[nb-m+1]) printf("YES\n");  
+      //  if(a[k] < b[nb-m+1]) printf("YES\n");  
      //  else printf("NO\n");
           
     
