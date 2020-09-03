@@ -24,6 +24,7 @@ int main()
 
 
 /*
+
 　
 Consider 4! =3! *2! *2!
 
