@@ -7,7 +7,7 @@
 char s[100001];
 int main()
 {
-	char *c;
+    char *c;
     scanf("%s",s);
     if((c=strstr(s,"AB"))!=NULL && strstr(c+2,"BA")!=NULL)
     {
