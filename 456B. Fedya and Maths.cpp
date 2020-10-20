@@ -7,7 +7,7 @@
 #include <cstring>
 
 using namespace std;
-const int maxn=1e+5;
+const int maxn=1e5+5;
 char s[maxn];
 
 int main()
