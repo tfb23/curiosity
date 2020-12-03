@@ -34,5 +34,25 @@ int main()
         s3=regex_replace(s2,regex("^\\s"),"");
         cout<<s3<<endl;
     }
-
 }
+
+
+/*
+
+
+ while(~scanf("%s",s))
+    {
+        int n=strlen(s);
+        int flag=0;
+        for(int i=0;i<n;i++)
+        {
+            while(i+2<n&&s[i]=='W'&&s[i+1]=='U'&&s[i+2]=='B')i+=3;
+            if(flag)printf(" ");
+            while(i<n&&!(i+2<n&&s[i]=='W'&&s[i+1]=='U'&&s[i+2]=='B'))printf("%c",s[i]),i++;
+            i--;
+            flag=1;
+        }
+        printf("\n"); 
+	
+	
+*/
