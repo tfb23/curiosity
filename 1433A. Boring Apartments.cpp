@@ -16,4 +16,4 @@ int main()
 		int len=s.length();
 		cout<<dig*10+len*(len+1)/2<<endl;
 	}
-}1433
+}
