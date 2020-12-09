@@ -19,7 +19,7 @@ int main()
 		else
 		{
 			ans=ceil((n-2)/x);
-			cout<<ans+1;
+			cout<<ans+1<<endl;
 		}
 	}
 }
