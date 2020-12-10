@@ -40,3 +40,26 @@ int main()
 	}
 	cout<<endl;
 }
+
+
+/*
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int i, j=2, n;
+	string s;
+	
+	cin>>n>>s;
+	
+	for(i=0; i<n; )
+	{
+		cout<<s.at(i);
+		i+=j;
+		j++;
+	}
+}
+
+
+*/
