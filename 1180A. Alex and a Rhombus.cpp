@@ -1,0 +1,12 @@
+//    https://codeforces.com/problemset/problem/1180/A
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int n;
+	cin>>n;
+	cout<<(n*n)+((n-1)*(n-1))<<endl;
+}
