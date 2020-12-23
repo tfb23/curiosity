@@ -27,3 +27,19 @@ int main()
 		if(i==n+1) i=1;
 	}
 }
+
+/*
+
+ for(int i=1;;i++)
+        {
+            if(i%n!=0) i%=n;
+            else i=n;
+            if(m<i)
+            {
+                printf("%d\n",m);
+                break;
+            }
+            m-=i;
+
+
+*/
