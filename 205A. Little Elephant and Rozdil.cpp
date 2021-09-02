@@ -30,3 +30,40 @@ cout<<"Still Rozdil";
 
 	return 0;
 }
+
+/*
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long int;
+
+int main()
+{
+    ios_base::sync_with_stdio(false);
+        cin.tie(0);
+        cout.tie(0);
+    ll n;
+    cin>>n;
+    vector<pair<ll, ll>> a(n);
+    for(ll i=0; i<n; i++)
+    {
+        cin>>a[i].first;
+        a[i].second = i+1;
+    }
+    if(n==1)
+    {
+        cout<<"1\n";
+        return 0;
+    }
+    sort(a.begin(), a.end());
+    if(a[0].first == a[1].first)
+    {
+        cout<<"Still Rozdil\n";
+    }
+    else
+    {
+        cout<<a[0].second<<"\n";
+    }
+    return 0;
+}
+
+
