@@ -7,19 +7,20 @@ using namespace std;
 int main() {
 	int x, y, a, b;
 	cin >> x >> y >> a >> b;
+	int count = 0;
 	
-	int cnt = 0;
 	for(int i = a; i <= x; i++) {
-		int end = min(i - 1, y);
-		if(b <= end) cnt += (end - b + 1);
+		for(int j = b; j <= y; j++) {
+			if (i > j) count++;
+		}
 	}
-	cout << cnt << endl;
+	cout << count << endl;
 	
-		for(int i = a; i <= x; i++) {
-			for(int j = b; j <= y; j++) {
-				if(i > j) { 
-					cout << i << " "<< j << endl;
-				}
+	for(int i = a; i <=x; i++) {
+		for(int j = b; j <= y; j++) {
+			if( i > j) {
+				cout << i << " " << j << endl;
 			}
 		}
 	}
+}
