@@ -1,8 +1,6 @@
 //    https://codeforces.com/contest/1611/problem/A
 
 
-//Author: Toushiful Ferdous Badhan 
-
 #include <bits/stdc++.h>
 using namespace std;
 
